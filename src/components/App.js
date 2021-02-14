@@ -44,7 +44,7 @@ class App extends Component {
       <div id="main">
         <ol>
           {arr.map((item, index) => (
-            <li key={`${item.name}`}>
+            <li key={`${item.name}${index+1}`}>
               {`${item.name}(${item.country})`}
             </li>
           ))}
