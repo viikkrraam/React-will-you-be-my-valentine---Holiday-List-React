@@ -5,7 +5,7 @@ import "./styles.css";
 class App extends Component {
   constructor(props) {
     super(props);
-Goa(India), Amsterdam(Netherlands), New York(USA), Darjeeling(India), Tokyo(Japan), Lonavala(India)
+
     this.cityList = [
       { name: "Goa", country: "India" },
       { name: "Amsterdam", country: "Netherlands" },
